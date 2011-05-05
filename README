@@ -1,7 +1,7 @@
 Encapsulates Windows API functions for handling global hot keys.
 Hoping to add Linux support in the future.
 
-<b>Example Usage:</b>
+Example Usage:
 HotKey hotKey = new HotKey();
 hotKey.VirtualKey = (int)Keys.H;
 hotKey.Alt = true;
